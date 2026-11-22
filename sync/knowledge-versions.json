@@ -1,0 +1,100 @@
+{
+  "files": [
+    {
+      "libraryFileId": "libfile_fde3_f-8bde9ec599048191ad397ecbcb733c32_15583dc88e508191963b6ed2390f4d47",
+      "sourcePath": "/01 AI Sales Forecasting/AI_Sales_Forecast_Blueprint_Working_Memory.md",
+      "version": "1",
+      "gitPath": "knowledge/projects/01 AI Sales Forecasting/AI_Sales_Forecast_Blueprint_Working_Memory.md",
+      "gitBlob": "ca1b6b3541aa0a889f379a2e403b238cb8876729",
+      "bytes": 13567
+    },
+    {
+      "libraryFileId": "libfile_fde3_f-5951dc1e5c388191be6dcee10749b6f0_15583dc88e508191963b6ed2390f4d47",
+      "sourcePath": "/01 AI Sales Forecasting/Sampson_Memory_Export_20261110_full.md",
+      "version": "0",
+      "gitPath": "knowledge/projects/01 AI Sales Forecasting/Sampson_Memory_Export_20261110_full.md",
+      "gitBlob": "1e1cf7e9c251238413ad6f6a525fac9f1f90eb36",
+      "bytes": 224979
+    },
+    {
+      "libraryFileId": "libfile_fde3_f-26f08e0ea824819187b961f952cc33df_15583dc88e508191963b6ed2390f4d47",
+      "sourcePath": "/01 AI Sales Forecasting/Sampson_Memory_Export_20261110_outbound.md",
+      "version": "0",
+      "gitPath": "knowledge/projects/01 AI Sales Forecasting/Sampson_Memory_Export_20261110_outbound.md",
+      "gitBlob": "12b9a62d752af46061e1c4c3d038d8476b077325",
+      "bytes": 220500
+    },
+    {
+      "libraryFileId": "libfile_fde3_f-08315dbf16308191b63864de904b366f_15583dc88e508191963b6ed2390f4d47",
+      "sourcePath": "/02 Planning Tool/Sampson_Claude_Export_20261112_full.md",
+      "version": "0",
+      "gitPath": "knowledge/projects/02 Planning Tool/Sampson_Claude_Export_20261112_full.md",
+      "gitBlob": "f4e91dfb1b4f5fa92f366064616f74635e3a799d",
+      "bytes": 296961
+    },
+    {
+      "libraryFileId": "libfile_fde3_f-3c8ab73d203c8191b4144faf95912e8b_15583dc88e508191963b6ed2390f4d47",
+      "sourcePath": "/02 Planning Tool/Sampson_Claude_Export_20261112_outbound.md",
+      "version": "0",
+      "gitPath": "knowledge/projects/02 Planning Tool/Sampson_Claude_Export_20261112_outbound.md",
+      "gitBlob": "5976f714a258a0eb88af53221844cc092d7cf3fe",
+      "bytes": 292613
+    },
+    {
+      "libraryFileId": "libfile_fde3_f-e8e0f2fe9acc8191ac74e8f159b7c027_15583dc88e508191963b6ed2390f4d47",
+      "sourcePath": "/05 Catch up with Vivian/CTF_Weekly_Report_Working_Memory.md",
+      "version": "2",
+      "gitPath": "knowledge/projects/05 Catch up with Vivian/CTF_Weekly_Report_Working_Memory.md",
+      "gitBlob": "6d2739bf150f6d3c8aff599036b1c6b9cf48252c",
+      "bytes": 18971
+    },
+    {
+      "libraryFileId": "libfile_fde3_f-4feb1ed9ec848191a90509691f99d7af_15583dc88e508191963b6ed2390f4d47",
+      "sourcePath": "/CTF_五项目共享工作记忆.md",
+      "version": "88",
+      "gitPath": "knowledge/CTF_五项目共享工作记忆.md",
+      "gitBlob": "d9f0f205ebfcc1b67289f03dc48b79a89199ae64",
+      "bytes": 791001
+    },
+    {
+      "libraryFileId": "libfile_fde3_f-8f8223c3397c8191b79d3f9bf7df6784_15583dc88e508191963b6ed2390f4d47",
+      "sourcePath": "/SBUX For AI SF/Starbucks_Claude_Cross_Review_20261030.md",
+      "version": "0",
+      "gitPath": "knowledge/projects/SBUX For AI SF/Starbucks_Claude_Cross_Review_20261030.md",
+      "gitBlob": "d8ce51bea5fc535848993c0fc4cf35e823ce471d",
+      "bytes": 22151
+    },
+    {
+      "libraryFileId": "libfile_fde3_f-9bb45d35eca48191800e22e7645a05e6_15583dc88e508191963b6ed2390f4d47",
+      "sourcePath": "/SBUX For AI SF/业务需求分析文档_SSP_Submitted_v1.md",
+      "version": "0",
+      "gitPath": "knowledge/projects/SBUX For AI SF/业务需求分析文档_SSP_Submitted_v1.md",
+      "gitBlob": "81a3a7aea17b6c9999466e9c54326b27f4d3a9f0",
+      "bytes": 25411
+    },
+    {
+      "libraryFileId": "libfile_fde3_f-c90f5d95cee8819185297eb2a69ff2eb_15583dc88e508191963b6ed2390f4d47",
+      "sourcePath": "/SBUX For AI SF/业务需求分析文档_SSP_Submitted_v2.md",
+      "version": "0",
+      "gitPath": "knowledge/projects/SBUX For AI SF/业务需求分析文档_SSP_Submitted_v2.md",
+      "gitBlob": "86c55744af059c227595c2fcf823fdc5cade98ec",
+      "bytes": 32456
+    },
+    {
+      "libraryFileId": "libfile_fde3_f-b57a11103ed881919b09d624c63ecdee_15583dc88e508191963b6ed2390f4d47",
+      "sourcePath": "/SBUX For AI SF/需求分析评估报告_SSP_Submitted_v0.md",
+      "version": "0",
+      "gitPath": "knowledge/projects/SBUX For AI SF/需求分析评估报告_SSP_Submitted_v0.md",
+      "gitBlob": "169b121be7af455d6fc7dd8b515ad7ddc085340c",
+      "bytes": 17842
+    },
+    {
+      "libraryFileId": "libfile_fde3_f-278287b813e8819196672ea3876c20ab_15583dc88e508191963b6ed2390f4d47",
+      "sourcePath": "/SBUX For AI SF/需求澄清补充_20260702_状态识别与GlobalID.md",
+      "version": "0",
+      "gitPath": "knowledge/projects/SBUX For AI SF/需求澄清补充_20260702_状态识别与GlobalID.md",
+      "gitBlob": "8e3425c7d8bd61f19cfb342aae11052015c739cc",
+      "bytes": 2230
+    }
+  ]
+}
