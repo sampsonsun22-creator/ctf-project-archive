@@ -1,0 +1,53 @@
+name: Daily CTF Memory Sync (18:30 Beijing Time)
+
+on:
+  schedule:
+    # 10:30 UTC is 18:30 Asia/Shanghai.
+    - cron: '30 10 * * *'
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: ctf-daily-memory-sync-main
+  cancel-in-progress: false
+
+jobs:
+  refresh-digest:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: write
+    steps:
+      - name: Check out the archive
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+
+      - name: Generate and commit the daily digest
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
+          for attempt in 1 2 3; do
+            git fetch --no-tags origin refs/heads/main
+            git reset --hard FETCH_HEAD
+            python3 scripts/generate_daily_digest.py
+            git add -- sync/DAILY_DIGEST.md sync/daily_digest_state.json
+
+            if git diff --cached --quiet; then
+              echo 'Daily digest is already current.'
+              exit 0
+            fi
+
+            git commit -m 'Update CTF daily archive digest'
+            if git push origin HEAD:refs/heads/main; then
+              exit 0
+            fi
+            echo "Push attempt ${attempt} failed. Refreshing main before retrying."
+          done
+
+          echo 'Could not publish the daily digest after three attempts.' >&2
+          exit 1
