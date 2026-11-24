@@ -1,7 +1,9 @@
-name: Daily CTF Memory Sync (18:30 Beijing Time)
+name: Daily CTF Memory Sync (12:30 and 18:30 Beijing Time)
 
 on:
   schedule:
+    # 04:30 UTC is 12:30 Asia/Shanghai.
+    - cron: '30 4 * * *'
     # 10:30 UTC is 18:30 Asia/Shanghai.
     - cron: '30 10 * * *'
   workflow_dispatch:
